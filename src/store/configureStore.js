@@ -3,7 +3,7 @@
  */
 'use strict';
 
-import {createStore} from 'redux';
+import {createStore, applyMiddleware} from 'redux';
 import rootReducer from '../reducers';
 import reduxImmutableStateInvariant from 'redux-immutable-state-invariant';
 
@@ -13,4 +13,4 @@ export default (initialState) => {
     initialState,
     applyMiddleware(reduxImmutableStateInvariant())
   );
-}
+};
