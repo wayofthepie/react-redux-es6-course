@@ -3,7 +3,7 @@
  */
 'use strict';
 
-import 'babel-polyfill'; // for some es6 feature transpiling
+import 'babel-polyfill'; // for some es6 feature transpiling, e.g Object.assign.
 import React from 'react';
 import {render} from 'react-dom';
 import {Router, browserHistory} from 'react-router';
