@@ -3,8 +3,8 @@
  */
 'use strict';
 
-import React from "react";
-import {Link} from "react-router";
+import React from 'react';
+import {Link} from 'react-router';
 
 class HomePage extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class HomePage extends React.Component {
         <p>React, Redux in ES6.</p>
         <Link to='about' className='btn btn-primary btn-lg'>Learn more</Link>
       </div>
-    )
+    );
   }
 }
 

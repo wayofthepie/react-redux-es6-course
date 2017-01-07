@@ -12,7 +12,7 @@ class AboutPage extends React.Component {
         <h1>About</h1>
         <p>Stuff!</p>
       </div>
-    )
+    );
   }
 }
 
