@@ -18,4 +18,8 @@ const CourseListRow = ({course}) => {
   );
 };
 
+CourseListRow.propTypes = {
+  course: PropTypes.object
+};
+
 export default CourseListRow;
