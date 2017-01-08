@@ -3,4 +3,7 @@
  */
 'use strict';
 
-export default 2000;
+/**
+ * ms to delay mock api calls.
+ */
+export default 0;
