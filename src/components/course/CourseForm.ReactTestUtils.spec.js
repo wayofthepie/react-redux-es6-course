@@ -26,7 +26,7 @@ function setup(saving) {
     props,
     output,
     renderer
-  }
+  };
 }
 
 describe('CourseForm via React Test Utils', () => {
